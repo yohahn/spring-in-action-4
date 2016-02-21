@@ -10,6 +10,7 @@
 
     <properties>
         <springVersion>4.2.4.RELEASE</springVersion>
+        <systemRulesVersion>1.5.0</systemRulesVersion>
     </properties>
 
     <dependencies>
@@ -22,6 +23,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${springVersion}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.stefanbirkner</groupId>
+            <artifactId>system-rules</artifactId>
+            <version>${systemRulesVersion}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
