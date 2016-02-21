@@ -1,16 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.myapp</groupId>
-    <artifactId>profiles</artifactId>
+    <groupId>com.habuma.restfun</groupId>
+    <artifactId>conditional</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>profiles</name>
+    <name>conditional</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <springVersion>4.2.4.RELEASE</springVersion>
-        <h2Version>1.4.182</h2Version>
         <systemRulesVersion>1.5.0</systemRulesVersion>
     </properties>
 
@@ -19,16 +18,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${springVersion}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>${springVersion}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>${h2Version}</version>
         </dependency>
 
         <!-- test scope -->
